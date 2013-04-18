@@ -1,6 +1,6 @@
 #!/bin/bash
 # graph-samples.sh -- draw a picture from the statistic result
-# author: Wu Zhangjin <wuzhangjin@gmail.com>
+# author: zhang xiaolong <wdzxl198@163.com>
 # update: 2010-03-28
 
 # By default, draw the picture, if -S is passed, output the script

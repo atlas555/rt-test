@@ -554,5 +554,5 @@ module_init(interrupt_latency_init);
 module_exit(interrupt_latency_exit);
 
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("Wu Zhangin <wuzhangjin@gmail.com>");
+MODULE_AUTHOR("zhang xiaolong <wdzxl198@163.com>");
 MODULE_DESCRIPTION("Test the interrupt latency");

@@ -1,0 +1,8 @@
+rt-test
+=======
+
+concept and test tools for realtime 
+include script and tools:
+  context_switch what used for testing context switch latecny;
+  interrupt_tool what used for testing interrupt latency;
+  script what used for loading tools and autoscript.

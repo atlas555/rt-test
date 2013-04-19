@@ -1,4 +1,5 @@
-#include "/root/linux/include/linux/rtc.h"
+//#include "/root/linux/include/linux/rtc.h"
+#include <linux/rtc.h>
 #include <sys/ioctl.h>
 #include <fcntl.h>
 #include <unistd.h>
@@ -108,7 +109,7 @@ int main() {
 
 	now = rdtsc();
 	delay = secondsPerTick * (now - last);
-	printf(""%f\n",1e6 * delay");
+	printf(""%f\n",1e6 * delay");     // print delay;
 //	printf("%f\n",1e6 * (ideal - delay));
 	last = now;
     }

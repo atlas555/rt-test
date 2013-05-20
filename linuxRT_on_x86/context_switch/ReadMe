@@ -1,0 +1,7 @@
+/*steps for using rtcontext_switch*/
+
+1.
+	make;
+2.
+	./context_switch > context_switch.log
+

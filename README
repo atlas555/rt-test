@@ -1,8 +1,53 @@
 rt-test
 =======
+These tools used for measuring realtime linux with RT.
+Now,these tools include 3 part.
 
-concept and test tools for realtime 
+/*******************************************************/
+USING RT on X86 and measuring latency time
+
 include script and tools:
-  1.context_switch what used for testing context switch latecny;
-  2.interrupt_tool what used for testing interrupt latency;
-  3.script what used for loading tools and autoscript.
+  
+  TOOLS:
+	1.context_switch 
+		what used for testing context switch latecny;
+	2.interrupt_tool 
+		what used for testing interrupt latency;
+	3.script for stress 
+		what used for loading tools and autoscript.
+
+   INDEX:
+	linux_on_x86
+
+      --contest_switch
+		  --context_switch.c
+		  --Makefile
+		  --ReadMe
+
+	  --interrupt_tool
+		  --irq_modules
+			--interrupt_latenct_x86.c
+		  --parport-app
+			--lp-interrupt-latency.c
+			--lp0-block-read-undone.c
+			--lp-test
+				--indata.c
+				--outdata.c
+				--....
+			--ReadMe
+	  --clock_nonosleep
+
+		
+/*******************************************************/
+USING RT on longson2F and measuring latency time
+  
+  TOOL:
+	recently i will do it!
+
+
+/*******************************************************/
+USING RT on ARM and measuring latency time
+
+  TOOL:
+	recently i will do it!
+

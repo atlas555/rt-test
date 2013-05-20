@@ -1,0 +1,10 @@
+version.o: version.c version.h syscfg.h ../config.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.3/include/stdbool.h
+
+version.h:
+
+syscfg.h:
+
+../config.h:
+
+/usr/lib/gcc/i486-linux-gnu/4.4.3/include/stdbool.h:

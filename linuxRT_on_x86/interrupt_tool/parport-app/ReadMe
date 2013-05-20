@@ -1,0 +1,6 @@
+/*
+   file for measuring interrupt latency or 
+   interrupt responsed using lp-parport
+ */
+/* gcc*/
+	gcc -o xx xx.c

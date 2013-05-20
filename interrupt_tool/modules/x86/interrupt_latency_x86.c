@@ -145,7 +145,7 @@ static int __init init_interrupt_latency(void)
   return 0;
 
 /* remove the proc entry on error */
-no_interrupt_latency:
+  no_interrupt_latency:
   remove_proc_entry("interrupt_latency", NULL);
 }
 
